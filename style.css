@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+   
+}
+
+li{
+    padding-right: 10px;
+}
