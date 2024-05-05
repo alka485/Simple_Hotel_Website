@@ -6,6 +6,29 @@
     <link rel="stylesheet" href="style.css">
     <title>Hotel Website</title>
 </head>
+<style>
+    /* Internal Styling */
+    #location {
+        font-family: Arial, Helvetica, sans-serif;
+        /* border-collapse: collapse; */
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    #location td , #location th {
+        border: 1px solid #ff7200;
+        padding: 8px;
+    }
+
+    #location th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+
+</style>
 <body>
     <div class="main">
         <div class="navbar">
@@ -27,8 +50,8 @@
             </div> -->
         </div>
         <div class="content">
-            <h1><span>Contact</span>Us</h1>
-            <!-- <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia <br>ad aliquid explicabo id sunt laudantium optio obcaecati ducimus. <br>Tempore voluptatem libero adipisci, debitis facilis laboriosam peum <br>doloremque deleniti necessitatibus? <br>Repellendus laudantium quos aliquid quibusdam. <br> Numquam quod tenetur exercitationem quas ullam.</p> -->
+            <h1><span>About</span>Us</h1>
+            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia <br>ad aliquid explicabo id sunt laudantium optio obcaecati ducimus. <br>Tempore voluptatem libero adipisci, debitis facilis laboriosam peum <br>doloremque deleniti necessitatibus? <br>Repellendus laudantium quos aliquid quibusdam. <br> Numquam quod tenetur exercitationem quas ullam.</p>
             <!-- <button class="cn"><a href="#">JOIN US</a></button> -->
             <div class="icons">
                 <a href="#"><ion-icons name = "logo-phone"></ion-icons></a>
@@ -38,11 +61,36 @@
                 <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
             </div>
             <div class="form">
-                <h2>Send Message</h2>
-                <input type="text" name="name" id="" placeholder="FullName">
+                <h2>Other Locations</h2>
+                <!-- <input type="text" name="name" id="" placeholder="FullName">
                 <input type="email" name="email" id="" placeholder=" Email">
                 <textarea name="" id=""placeholder="Type Your Message" rows="5" cols="30"></textarea>
-                <button class="btnn"><a href="#">Send</a></button>
+                <button class="btnn"><a href="#">Send</a></button> -->
+
+                <table id="location">
+                    <tr>
+                        <th>Country</th>
+                        <th>State</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>Washington</td>
+                        <td>Lorem ipsum dolor</td>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>Washington</td>
+                        <td>Lorem ipsum dolor</td>
+                    </tr>
+
+                    <tr>
+                        <td>USA</td>
+                        <td>Washington</td>
+                        <td>Lorem ipsum dolor</td>
+                    </tr>
+
+                </table>
                 
             </div>
         </div>
