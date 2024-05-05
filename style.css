@@ -67,7 +67,7 @@ ul li a:hover{
     color: #ff7200;
 }
 
-.search {
+h1.search {
     width: 330px;
     float: left;
     margin-left: 270px;
@@ -264,6 +264,12 @@ ul li a:hover{
 
 .icons ion-icon:hover{
     color: #ff7200;
+}
+
+/* media screen query */
+
+@media screen and (max-width :1200px) {
+    
 }
 
 
