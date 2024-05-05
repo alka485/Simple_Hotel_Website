@@ -2,7 +2,7 @@
 *{
     margin:0;
     padding: 0;
-
+    
 }
 
 .main{
@@ -154,10 +154,10 @@ h1.search {
     background-color: #fff;
 }
 
-.content span {
+/* .content span {
     color: #ff7200;
     font-size: 62px;
-}
+} */
 
 .form {
     width: 250px;
@@ -183,7 +183,7 @@ h1.search {
     padding: 8px;
 }
 
-.form input {
+.form input ,textarea {
     width: 240px;
     height: 35px;
     background: transparent;
