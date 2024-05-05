@@ -183,7 +183,7 @@ h1.search {
     padding: 8px;
 }
 
-.form input,textarea {
+.form input {
     width: 240px;
     height: 35px;
     background: transparent;
@@ -197,6 +197,38 @@ h1.search {
     margin-top: 30px;
     font-family: sans-serif;
 }
+
+.form label {
+    width: 240px;
+    height: 35px;
+    /* background: transparent; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+
+.form  select {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
 
 .form input:focus{
     outline: none;
